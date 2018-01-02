@@ -1,0 +1,21 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 125px;
+  background-image: url("header.jpg");
+  background-repeat: no-repeat, repeat;
+}
+
+.resume-image {
+  max-width: 90%;
+}
+
+hr.resume {
+  color: transparent;
+  border: 0px;
+  margin: 6rem 0;
+}
