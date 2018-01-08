@@ -2,19 +2,19 @@
 
 ## Git Commands for regular work
 
-* To "save" your changes *
+**To "save" your changes**
 ```
 git add .
 git commit -M "put a note here about what the changes are for future reference - try to be as factual and specific as you can be."
 
 ```
 
-* To push your changes up to github *
+**To push your changes up to github**
 ```
 git push origin master
 ```
 
-* If you see this message:
+**If you see this message:**
 ```
 To github.com:leana-stone/Portfolio.git
  ! [rejected]        master -> master (fetch first)
@@ -25,19 +25,19 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-* It means someone else (like erica) made changes since you last worked on the project. WHen that happens, first add and commit your changes:*
+**It means someone else (like erica) made changes since you last worked on the project. WHen that happens, first add and commit your changes:**
 
 ```
 git add .
 git commit -M "put a note here about what the changes are for future reference - try to be as factual and specific as you can be."
 ```
 
-* Then do this: *
+**Then do this:**
 ```
 git pull origin master
 ```
 
-* A page will open that says: *
+**A page will open that says:**
 
 ```
 Merge branch 'master' of github.com:leana-stone/Portfolio
@@ -49,9 +49,9 @@ Merge branch 'master' of github.com:leana-stone/Portfolio
 # the commit.
 ```
 
-* Add a quick note after the first line, save and close the file*
+**Add a quick note after the first line, save and close the file**
 
-* Then you'll be able to push your changes up with this: *
+**Then you'll be able to push your changes up with this:**
 
 ```
 git push origin master
