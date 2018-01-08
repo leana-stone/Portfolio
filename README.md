@@ -57,7 +57,7 @@ Merge branch 'master' of github.com:leana-stone/Portfolio
 git push origin master
 ```
 
-=====
+-------------------
 
 
 ## Things I need to remember to get my project started
