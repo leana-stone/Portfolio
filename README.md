@@ -25,7 +25,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-**It means someone else (like erica) made changes since you last worked on the project. WHen that happens, first add and commit your changes:**
+**It means someone else (like erica) made changes since you last worked on the project. When that happens, first add and commit your changes:**
 
 ```
 git add .
