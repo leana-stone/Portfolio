@@ -14,10 +14,21 @@ git commit -M "put a note here about what the changes are for future reference -
 git push origin master
 ```
 
-* If
-someone else (like erica) made changes since you last worked on the project, *
+* If you see this message:
 ```
-git push origin master
+To github.com:leana-stone/Portfolio.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:leana-stone/Portfolio.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+* It means someone else (like erica) made changes since you last worked on the project. WHen that happens, do this: *
+
+```
+git pull origin master
 ```
 
 =====
